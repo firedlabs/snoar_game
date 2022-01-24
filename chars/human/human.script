@@ -1,0 +1,89 @@
+local Animation = require('chars.human.Animation')
+
+function init(self)
+	msg.post('.', 'acquire_input_focus')
+
+	self.moving = false
+	self.speed = 50
+	self.direction = vmath.vector3()
+	self.keyDown = false
+	self.keyUp = false
+	self.keyRight = false
+	self.keyLeft = false
+end
+
+function final(self)
+	msg.post('.', 'release_input_focus')
+end
+
+function update(self, dt)
+	local position = go.get_position()
+	local isWalkingRight = self.direction.x > 0
+
+	if self.keyDown then
+		self.direction.y = -1
+		Animation.walkingDown()
+	end
+	
+	if self.keyUp then
+		self.direction.y = 1
+		Animation.walkingUp()
+	end
+	
+	if self.keyRight then
+		self.direction.x = 1
+		Animation.walkingRight()
+	end
+	
+	if self.keyLeft then
+		self.direction.x = -1
+		Animation.walkingLeft()
+	end
+
+	if self.keyRight and self.keyUp then
+		Animation.walkingUpRight()
+	end
+
+	if self.keyLeft and self.keyUp then
+		Animation.walkingUpLeft()
+	end
+
+	if vmath.length(self.direction) > 0 then
+		self.direction = vmath.normalize(self.direction)
+		self.moving = true
+	end
+
+	if self.moving then
+		position = position + self.direction * self.speed * dt
+		go.set_position(position)
+	end
+
+	
+
+	Animation.idle(self)
+	Animation.apply(sprite)
+
+	self.direction = vmath.vector3()
+	self.moving = false
+end
+
+function on_input(self, action_id, action)
+	local isMovingUp = action_id == hash('up')
+	local isMovingRight = action_id == hash('right')
+	local isMovingDown = action_id == hash('down')
+	local isMovingLeft = action_id == hash('left')
+
+	if action.pressed then
+		if isMovingUp then self.keyUp = true end
+		if isMovingDown then self.keyDown = true end
+		if isMovingRight then self.keyRight = true end
+		if isMovingLeft then self.keyLeft = true end
+	end
+
+	if action.released then
+		if isMovingUp then self.keyUp = false end
+		if isMovingDown then self.keyDown = false end
+		if isMovingRight then self.keyRight = false end
+		if isMovingLeft then self.keyLeft = false end
+	end
+end
