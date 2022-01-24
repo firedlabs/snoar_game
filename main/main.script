@@ -1,11 +1,11 @@
 local monarch = require('monarch.monarch')
 
 function init(self)
-	msg.post('#', 'show_login_monarch')
+	msg.post('#', 'show_signup_login')
 end
 
 function on_message(self, message_id, message, sender)
-	if message_id == hash('show_login_monarch') then
-		monarch.show('login_monarch')
+	if message_id == hash('show_signup_login') then
+		monarch.show('signup_login')
 	end
 end

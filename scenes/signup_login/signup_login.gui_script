@@ -1,0 +1,27 @@
+local monarch = require('monarch.monarch')
+local button = require('util.in.button')
+
+function init(self)
+    button.acquire()
+
+    button.register('login_button', function()
+        monarch.show('pakoskoya')
+    end)
+end
+
+function final(self)
+    button.release()
+end
+
+function update(self, dt)
+end
+
+function on_message(self, message_id, message, sender)
+end
+
+function on_input(self, action_id, action)
+    button.on_input(action_id, action)
+end
+
+function on_reload(self)
+end

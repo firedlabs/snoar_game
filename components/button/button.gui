@@ -1,7 +1,7 @@
 script: ""
 fonts {
   name: "press_start"
-  font: "/assets/fonts/press_start.font"
+  font: "/assets/fonts/button.font"
 }
 background_color {
   x: 0.0

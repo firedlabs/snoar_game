@@ -1,6 +1,64 @@
 name: "main"
 scale_along_z: 0
 embedded_instances {
+  id: "pakoskoya"
+  data: "components {\n"
+  "  id: \"screen_proxy\"\n"
+  "  component: \"/monarch/screen_proxy.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  properties {\n"
+  "    id: \"screen_id\"\n"
+  "    value: \"pakoskoya\"\n"
+  "    type: PROPERTY_TYPE_HASH\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collectionproxy\"\n"
+  "  type: \"collectionproxy\"\n"
+  "  data: \"collection: \\\"/scenes/cities/pakoskoya/pakoskoya.collection\\\"\\n"
+  "exclude: false\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
   id: "main"
   data: "components {\n"
   "  id: \"main\"\n"
@@ -36,7 +94,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "login_monarch"
+  id: "signup_login"
   data: "components {\n"
   "  id: \"screen_proxy\"\n"
   "  component: \"/monarch/screen_proxy.script\"\n"
@@ -53,72 +111,14 @@ embedded_instances {
   "  }\n"
   "  properties {\n"
   "    id: \"screen_id\"\n"
-  "    value: \"login_monarch\"\n"
+  "    value: \"signup_login\"\n"
   "    type: PROPERTY_TYPE_HASH\n"
   "  }\n"
   "}\n"
   "embedded_components {\n"
   "  id: \"collectionproxy\"\n"
   "  type: \"collectionproxy\"\n"
-  "  data: \"collection: \\\"/scenes/login_monarch/login_monarch.collection\\\"\\n"
-  "exclude: false\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 1.0
-    y: 1.0
-    z: 1.0
-  }
-}
-embedded_instances {
-  id: "game_monarch"
-  data: "components {\n"
-  "  id: \"screen_proxy\"\n"
-  "  component: \"/monarch/screen_proxy.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  properties {\n"
-  "    id: \"screen_id\"\n"
-  "    value: \"game_monarch\"\n"
-  "    type: PROPERTY_TYPE_HASH\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"collectionproxy\"\n"
-  "  type: \"collectionproxy\"\n"
-  "  data: \"collection: \\\"/scenes/game_moanarch/game_monarch.collection\\\"\\n"
+  "  data: \"collection: \\\"/scenes/signup_login/signup_login.collection\\\"\\n"
   "exclude: false\\n"
   "\"\n"
   "  position {\n"
