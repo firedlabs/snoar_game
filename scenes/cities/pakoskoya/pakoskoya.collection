@@ -23,8 +23,28 @@ instances {
   id: "human"
   prototype: "/chars/human/human.go"
   position {
-    x: 244.0
-    y: 186.0
+    x: 494.0
+    y: 303.0
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+    z: 0.5
+  }
+}
+instances {
+  id: "open_jet_lua"
+  prototype: "/scenes/cities/pakoskoya/objetcs/open_jet_lua/open_jet_lua.go"
+  position {
+    x: 594.0
+    y: 309.0
     z: 1.0
   }
   rotation {

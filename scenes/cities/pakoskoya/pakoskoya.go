@@ -1,6 +1,6 @@
 components {
   id: "pakoskoya"
-  component: "/scenes/cities/pakoskoya/pakoskoya.tilemap"
+  component: "/scenes/cities/pakoskoya/land.tilemap"
   position {
     x: 0.0
     y: 0.0

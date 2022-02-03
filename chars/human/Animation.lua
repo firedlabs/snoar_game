@@ -1,45 +1,45 @@
 local Animation = {}
-Animation.last = 'front'
-Animation.current = 'front'
+Animation.last = 'idle_down'
+Animation.current = 'idle_down'
 Animation.next = nil
 
 local function walking(name)
-	Animation.next = name
 	Animation.last = Animation.next
+	Animation.next = name
 end
 
-function Animation.walkingRight()
-	walking('front_right')
+function Animation.walking_right()
+	walking('walking_right')
 end
 
-function Animation.walkingLeft()
-	walking('front_left')
+function Animation.walking_left()
+	walking('walking_left')
 end 
 
-function Animation.walkingDown()
-	walking('front')
+function Animation.walking_down()
+	walking('walking_down')
 end
 
-function Animation.walkingUp()
-	walking('back')
+function Animation.walking_up()
+	walking('walking_up')
 end
 
-function Animation.walkingUpRight()
-	walking('back_right')
+function Animation.walking_up_right()
+	walking('walking_up')
 end
 
-function Animation.walkingUpLeft()
-	walking('back_left')
+function Animation.walking_up_left()
+	walking('walking_up')
 end
 
 function Animation.idle(game_object)
-	if game_object.moving ~= true then
-		Animation.next = 'idle_' .. Animation.last:gsub('back', 'front')
+	if game_object.moving ~= true and Animation.last:match('^idle') == nil then
+		Animation.next = 'idle_' .. Animation.last:gsub('walking_', '')
 	end
 end
 
 function Animation.apply(sprite)
-	if Animation.next ~= Animation.current then
+	if Animation.next ~= Animation.current and Animation.next ~= nil then
 		sprite.play_flipbook('#human_sprite', Animation.next)
 		Animation.current = Animation.next
 	end

@@ -1,15 +1,18 @@
 local Animation = require('chars.human.Animation')
+local Collision = require('chars.human.Collision')
+
+go.property('speed', 100)
 
 function init(self)
 	msg.post('.', 'acquire_input_focus')
 
 	self.moving = false
-	self.speed = 50
 	self.direction = vmath.vector3()
-	self.keyDown = false
-	self.keyUp = false
-	self.keyRight = false
-	self.keyLeft = false
+	self.key_down = false
+	self.key_up = false
+	self.key_right = false
+	self.key_left = false
+	self.key_interation = false
 end
 
 function final(self)
@@ -20,32 +23,32 @@ function update(self, dt)
 	local position = go.get_position()
 	local isWalkingRight = self.direction.x > 0
 
-	if self.keyDown then
+	if self.key_down then
 		self.direction.y = -1
-		Animation.walkingDown()
+		Animation.walking_down()
 	end
 	
-	if self.keyUp then
+	if self.key_up then
 		self.direction.y = 1
-		Animation.walkingUp()
+		Animation.walking_up()
 	end
 	
-	if self.keyRight then
+	if self.key_right then
 		self.direction.x = 1
-		Animation.walkingRight()
+		Animation.walking_right()
 	end
 	
-	if self.keyLeft then
+	if self.key_left then
 		self.direction.x = -1
-		Animation.walkingLeft()
+		Animation.walking_left()
 	end
 
-	if self.keyRight and self.keyUp then
-		Animation.walkingUpRight()
+	if self.key_right and self.key_up then
+		Animation.walking_up_right()
 	end
 
-	if self.keyLeft and self.keyUp then
-		Animation.walkingUpLeft()
+	if self.key_left and self.key_up then
+		Animation.walking_up_left()
 	end
 
 	if vmath.length(self.direction) > 0 then
@@ -58,8 +61,6 @@ function update(self, dt)
 		go.set_position(position)
 	end
 
-	
-
 	Animation.idle(self)
 	Animation.apply(sprite)
 
@@ -68,22 +69,33 @@ function update(self, dt)
 end
 
 function on_input(self, action_id, action)
-	local isMovingUp = action_id == hash('up')
-	local isMovingRight = action_id == hash('right')
-	local isMovingDown = action_id == hash('down')
-	local isMovingLeft = action_id == hash('left')
+	local is_moving_up = action_id == hash('up')
+	local is_moving_right = action_id == hash('right')
+	local is_moving_down = action_id == hash('down')
+	local is_moving_left = action_id == hash('left')
+	local is_interacting = action_id == hash('interaction')
 
 	if action.pressed then
-		if isMovingUp then self.keyUp = true end
-		if isMovingDown then self.keyDown = true end
-		if isMovingRight then self.keyRight = true end
-		if isMovingLeft then self.keyLeft = true end
+		if is_moving_up then self.key_up = true end
+		if is_moving_down then self.key_down = true end
+		if is_moving_right then self.key_right = true end
+		if is_moving_left then self.key_left = true end
+		if is_interacting then self.key_interaction = true end
 	end
 
 	if action.released then
-		if isMovingUp then self.keyUp = false end
-		if isMovingDown then self.keyDown = false end
-		if isMovingRight then self.keyRight = false end
-		if isMovingLeft then self.keyLeft = false end
+		if is_moving_up then self.key_up = false end
+		if is_moving_down then self.key_down = false end
+		if is_moving_right then self.key_right = false end
+		if is_moving_left then self.key_left = false end
+		if is_interacting then self.key_interaction = false end
 	end
+
+	print('key', action_id)
+	print('key_interaction', self.key_interaction)
+end
+
+function on_message(self, message_id, message, sender)
+	Collision.furniture(message_id, message)
+	Collision.interaction(message_id, message, self)
 end

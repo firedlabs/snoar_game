@@ -1,0 +1,71 @@
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_1.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_2.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_3.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_4.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_5.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_6.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_7.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_8.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_9.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_10.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_11.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_12.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_13.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_14.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_15.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_16.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+images {
+  image: "/scenes/cities/pakoskoya/assets/decor/decor_17.png"
+  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0

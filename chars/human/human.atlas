@@ -1,207 +1,632 @@
 animations {
-  id: "front_right"
+  id: "idle_right"
   images {
-    image: "/chars/human/assets/front_right/front_right1.png"
+    image: "/chars/human/assets/idle_right/idle_right01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_right/front_right2.png"
+    image: "/chars/human/assets/idle_right/idle_right02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_right/front_right3.png"
+    image: "/chars/human/assets/idle_right/idle_right03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_right/front_right4.png"
+    image: "/chars/human/assets/idle_right/idle_right04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_right/idle_right18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 10
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "front_left"
+  id: "walking_down"
   images {
-    image: "/chars/human/assets/front_left/front_left1.png"
+    image: "/chars/human/assets/walking_front/walking_front01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_left/front_left2.png"
+    image: "/chars/human/assets/walking_front/walking_front02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_left/front_left3.png"
+    image: "/chars/human/assets/walking_front/walking_front03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front_left/front_left4.png"
+    image: "/chars/human/assets/walking_front/walking_front04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_front/walking_front18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "back_right"
+  id: "idle_down"
   images {
-    image: "/chars/human/assets/back_right/back_right1.png"
+    image: "/chars/human/assets/idle_down/idle_down01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_right/back_right2.png"
+    image: "/chars/human/assets/idle_down/idle_down02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_right/back_right3.png"
+    image: "/chars/human/assets/idle_down/idle_down03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_right/back_right4.png"
+    image: "/chars/human/assets/idle_down/idle_down04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_down/idle_down18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 10
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "back_left"
+  id: "idle_up"
   images {
-    image: "/chars/human/assets/back_left/back_left1.png"
+    image: "/chars/human/assets/idle_up/idle_up01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_left/back_left2.png"
+    image: "/chars/human/assets/idle_up/idle_up02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_left/back_left3.png"
+    image: "/chars/human/assets/idle_up/idle_up03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back_left/back_left4.png"
+    image: "/chars/human/assets/idle_up/idle_up04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_up/idle_up18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 10
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "idle_front_right"
+  id: "walking_right"
   images {
-    image: "/chars/human/assets/idle_front_right/idle_front_right1.png"
+    image: "/chars/human/assets/walking_right/walking_right01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_right/idle_front_right2.png"
+    image: "/chars/human/assets/walking_right/walking_right02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_right/idle_front_right3.png"
+    image: "/chars/human/assets/walking_right/walking_right03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_right/idle_front_right4.png"
+    image: "/chars/human/assets/walking_right/walking_right04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_right/walking_right18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "idle_front_left"
+  id: "idle_left"
   images {
-    image: "/chars/human/assets/idle_front_left/idle_front_left1.png"
+    image: "/chars/human/assets/idle_left/idle_left01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_left/idle_front_left2.png"
+    image: "/chars/human/assets/idle_left/idle_left02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_left/idle_front_left3.png"
+    image: "/chars/human/assets/idle_left/idle_left03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/idle_front_left/idle_front_left4.png"
+    image: "/chars/human/assets/idle_left/idle_left04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/idle_left/idle_left18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 10
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "back"
+  id: "walking_left"
   images {
-    image: "/chars/human/assets/back/back1.png"
+    image: "/chars/human/assets/walking_left/walking_left01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back/back2.png"
+    image: "/chars/human/assets/walking_left/walking_left02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back/back3.png"
+    image: "/chars/human/assets/walking_left/walking_left03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/back/back4.png"
+    image: "/chars/human/assets/walking_left/walking_left04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_left/walking_left18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }
 animations {
-  id: "front"
+  id: "walking_up"
   images {
-    image: "/chars/human/assets/front/front1.png"
+    image: "/chars/human/assets/walking_up/walking_up01.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front/front2.png"
+    image: "/chars/human/assets/walking_up/walking_up02.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front/front3.png"
+    image: "/chars/human/assets/walking_up/walking_up03.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/chars/human/assets/front/front4.png"
+    image: "/chars/human/assets/walking_up/walking_up04.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up05.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up06.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up07.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up08.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up09.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up10.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up11.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up12.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up13.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up14.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up15.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up16.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up17.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/chars/human/assets/walking_up/walking_up18.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "idle_front"
-  images {
-    image: "/chars/human/assets/idle_front/idle_front1.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/chars/human/assets/idle_front/idle_front2.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/chars/human/assets/idle_front/idle_front3.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/chars/human/assets/idle_front/idle_front4.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 8
+  fps: 20
   flip_horizontal: 0
   flip_vertical: 0
 }

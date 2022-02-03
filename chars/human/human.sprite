@@ -1,4 +1,4 @@
 tile_set: "/chars/human/human.atlas"
-default_animation: "idle_front"
+default_animation: "idle_down"
 material: "/builtins/materials/sprite.material"
 blend_mode: BLEND_MODE_ALPHA

@@ -1,0 +1,4 @@
+tile_set: "/scenes/cities/pakoskoya/decor.atlas"
+default_animation: "decor_11"
+material: "/builtins/materials/sprite.material"
+blend_mode: BLEND_MODE_ALPHA

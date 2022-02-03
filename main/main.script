@@ -6,6 +6,6 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash('show_signup_login') then
-		monarch.show('signup_login')
+		monarch.show('pakoskoya')
 	end
 end
